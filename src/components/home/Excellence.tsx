@@ -10,7 +10,7 @@ const Excellence = () => {
           <div>
             <div className="flex items-center gap-2 mb-2">
               <h2 className="text-3xl font-bold text-black">key Features</h2>
-              <span className="w-2 h-2 rounded-full bg-[rgba(122,146,49,0.7)]" />
+              <span className="w-2 h-2 rounded-full bg-[#b5dc41]" />
             </div>
             <p className="text-gray-500 text-sm max-w-2xl mb-4">
               Lorem Ipsum has been the industry's standard dummy text ever since
@@ -42,7 +42,7 @@ const Excellence = () => {
               <h2 className="text-3xl font-bold text-black">
                 A Glimpse of Excellence
               </h2>
-              <span className="w-2 h-2 rounded-full bg-[rgba(122,146,49,0.7)]" />
+              <span className="w-2 h-2 rounded-full bg-[#b5dc41]" />
             </div>
             <p className="text-gray-500 text-sm max-w-2xl mb-4">
               Lorem Ipsum has been the industry's standard dummy text <br />ever since

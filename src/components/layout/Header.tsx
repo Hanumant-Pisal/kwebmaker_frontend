@@ -28,7 +28,7 @@ const Header = () => {
         </nav>
 
         
-        <button className="rounded-full border border-[rgba(122,146,49,0.7)] px-8 py-2 text-black transition-colors hover:bg-black hover:text-white hidden md:block">
+        <button className="rounded-full border border-[#b5dc41] px-8 py-2 text-black transition-colors hover:bg-black hover:text-white hidden md:block">
           Register Now
         </button>
 

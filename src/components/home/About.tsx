@@ -52,7 +52,7 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-black">
               About Us
             </h2>
-            <span className="w-2 h-2 rounded-full bg-[rgba(122,146,49,0.7)]" />
+            <span className="w-2 h-2 rounded-full bg-[#b5dc41]" />
           </div>
 
           <p className="text-sm text-gray-700 mb-6 max-w-md">

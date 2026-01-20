@@ -12,7 +12,7 @@ const Professionals = () => {
               <h2 className="text-3xl font-bold text-black">
                 Meet our professionals
               </h2>
-              <span className="inline-block h-2 w-2 rounded-full bg-[rgba(122,146,49,0.7)]" />
+              <span className="inline-block h-2 w-2 rounded-full bg-[#b5dc41]" />
             </div>
 
             <p className="mb-4 max-w-2xl text-sm text-gray-500">

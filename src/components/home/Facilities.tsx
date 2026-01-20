@@ -98,7 +98,7 @@ const Facilities = () => {
           <div>
             <div className="mb-2 flex items-center gap-2">
               <h2 className="text-3xl font-bold text-black">Facilities</h2>
-              <span className="inline-block h-2 w-2 rounded-full bg-[rgba(122,146,49,0.7)]" />
+              <span className="inline-block h-2 w-2 rounded-full bg-[#b5dc41]" />
             </div>
             <p className="max-w-2xl text-sm text-gray-500">
               Lorem Ipsum has been the industry's standard dummy text <br />ever since the 1500s.

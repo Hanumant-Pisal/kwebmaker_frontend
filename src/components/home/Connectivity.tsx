@@ -3,11 +3,10 @@ import { connectivity } from '@/app/data/connectivity';
 
 const Connectivity = () => {
   return (
-    <section className="grid min-h-[600px] md:grid-cols-2">
-      
-      <div className="flex flex-col justify-center bg-gradient-to-b from-[#2d4f1c] to-[#3d7a1e] p-10 text-white">
+<section className="grid min-h-[600px] md:grid-cols-[1.2fr_2fr]">      
+      <div className="flex flex-col justify-center bg-gradient-to-br from-[#0B3C5D] to-[#9AC11C] p-10 text-white">
         <div className="w-full max-w-md mx-auto">
-          <span className="mb-2 block text-sm font-medium tracking-widest text-[#b5dc41]">
+          <span className="mb-2 block text-lg font-medium tracking-widest text-white">
             LAUNCHING
           </span>
 
@@ -36,7 +35,7 @@ const Connectivity = () => {
      
       <div className="relative w-full h-96 md:h-auto">
         <Image
-          src="/images/golf.webp"
+          src="/images/golf.jpg"
           alt="Golf"
           fill
           sizes="(max-width: 768px) 100vw, 50vw"
