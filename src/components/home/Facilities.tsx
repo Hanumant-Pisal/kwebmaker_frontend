@@ -101,7 +101,7 @@ const Facilities = () => {
               <span className="inline-block h-2 w-2 rounded-full bg-[rgba(122,146,49,0.7)]" />
             </div>
             <p className="max-w-2xl text-sm text-gray-500">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              Lorem Ipsum has been the industry's standard dummy text <br />ever since the 1500s.
             </p>
           </div>
         </div>

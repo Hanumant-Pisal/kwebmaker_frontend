@@ -45,7 +45,7 @@ const Excellence = () => {
               <span className="w-2 h-2 rounded-full bg-[rgba(122,146,49,0.7)]" />
             </div>
             <p className="text-gray-500 text-sm max-w-2xl mb-4">
-              Lorem Ipsum has been the industry's standard dummy text ever since
+              Lorem Ipsum has been the industry's standard dummy text <br />ever since
               the 1500s.
             </p>
           </div>

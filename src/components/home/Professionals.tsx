@@ -16,7 +16,7 @@ const Professionals = () => {
             </div>
 
             <p className="mb-4 max-w-2xl text-sm text-gray-500">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              Lorem Ipsum has been the industry's standard dummy text <br />ever since the 1500s.
             </p>
           </div>
 
@@ -39,7 +39,7 @@ const Professionals = () => {
                 />
               </div>
               <h4 className="font-semibold">{name}</h4>
-              <p className="text-sm text-gray-500">{role}</p>
+              <p className="text-sm text-gray-500" dangerouslySetInnerHTML={{ __html: role.replace(/&/g, '&<br />') }} />
             </div>
           ))}
         </div>
