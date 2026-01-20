@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -17,7 +17,11 @@ const Footer = () => {
             blurDataURL="/images/video-poster-black.jpg"
           />
           <div className="absolute inset-0 flex flex-col justify-center bg-black/40 px-16">
-            <h2 className="mb-4 text-4xl font-bold text-white">Our Coaches</h2>
+            <div className="relative inline-block">
+              <h2 className="mb-4 inline-block text-4xl font-bold text-white">Our Coaches<span className="relative">
+                <span className="absolute -right-2 -top-2 h-2 w-2 rounded-full bg-white"></span>
+              </span></h2>
+            </div>
             <p className="mb-6 max-w-md text-white/80">
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
             </p>
@@ -29,7 +33,11 @@ const Footer = () => {
 
        
         <div className="relative flex w-1/2 flex-col justify-center bg-[#9AC11C] px-16">
-          <h2 className="mb-4 text-4xl font-bold text-white">Events</h2>
+          <div className="relative inline-block">
+            <h2 className="mb-4 inline-block text-4xl font-bold text-white">Events<span className="relative">
+              <span className="absolute -right-2 -top-2 h-2 w-2 rounded-full bg-white"></span>
+            </span></h2>
+          </div>
           <p className="mb-6 max-w-md text-white/90">
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
           </p>
@@ -56,7 +64,7 @@ const Footer = () => {
         
           <div className="md:col-span-2">
            
-            <div className="grid grid-cols-2 gap-y-6 text-sm text-black/70 md:grid-cols-6">
+            <div className="grid grid-cols-2 gap-y-6 text-sm text-black/100 md:grid-cols-6">
               <span>About Us</span>
               <span>Coaches</span>
               <span>News</span>
@@ -68,7 +76,7 @@ const Footer = () => {
               <span>Blogs</span>
             </div>
 
-            <div className="my-12 border-t border-black/10" />
+            <div className="my-12 border-t border-black/100" />
 
            
             <div className="grid items-start gap-10 md:grid-cols-2">
@@ -77,8 +85,14 @@ const Footer = () => {
                   Signature Slam Academy
                 </h4>
                 <p className="mb-2 text-sm">30 Wills Hill Road, Lovedale, NSW</p>
-                <p className="mb-2 text-sm">+91 5642589752</p>
-                <p className="text-sm">info@ssagroup.com</p>
+                <div className="mb-2 flex items-center gap-2">
+                  <FaPhoneAlt className="text-[#9AC11C]" size={14} />
+                  <span>+91 5642589752</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <FaEnvelope className="text-[#9AC11C]" size={14} />
+                  <span>info@ssagroup.com</span>
+                </div>
               </div>
 
               <div>
