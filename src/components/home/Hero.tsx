@@ -74,30 +74,32 @@ const Hero = () => {
 
         <div className="flex flex-col items-center">
           <button
-            className="mt-8 sm:mt-10 border border-[rgba(122,146,49,0.7)] px-6 sm:px-8 py-2 sm:py-3 rounded-full text-primary bg-white/10 hover:bg-[rgba(122,146,49,0.7)] hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[rgba(122,146,49,0.7)]"
+            className="mt-8 sm:mt-10 border border-[#b5dc41] px-6 sm:px-8 py-2 sm:py-3 rounded-full text-primary bg-white/10 hover:bg-[rgba(122,146,49,0.7)] hover:text-white transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[rgba(122,146,49,0.7)]"
             aria-label="Register Now"
           >
             Register Now
           </button>
 
-          <div
-            className="mt-4 text-[rgba(122,146,49,0.7)] text-2xl animate-bounce"
-            aria-hidden="true"
-          >
-            ↓
-          </div>
+         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
+  <div
+    className="text-[#b5dc41] text-4xl animate-bounce"
+    aria-hidden="true"
+  >
+    ↓
+  </div>
+</div>
         </div>
       </div>
 
   
       <div className="absolute bottom-10 right-0 z-10 hidden md:block text-white">
         <div className="text-xs tracking-widest mb-2 flex items-center gap-2">
-          <span className="text-[rgba(122,146,49,0.7)] text-lg md:text-xl">
+          <span className="text-[#b5dc41] text-lg md:text-xl">
             &laquo;&laquo;
           </span>
           <div className="flex-1 flex items-center">
             <span>WEATHER</span>
-            <div className="flex-1 h-0.5 bg-[rgba(122,146,49,0.7)] ml-3" />
+            <div className="flex-1 h-0.5 bg-[#b5dc41] ml-3" />
           </div>
         </div>
 
@@ -106,7 +108,7 @@ const Hero = () => {
             <div>
               <div className="text-sm font-semibold relative">
                 Hunter Valley
-                <div className="absolute bottom-0 left-0 w-full h-px bg-white/30 mt-1" />
+              
               </div>
               <div className="text-5xl font-semibold leading-none mt-2">
                 19&deg;C
@@ -123,22 +125,22 @@ const Hero = () => {
         </div>
 
         <div className="mt-3 text-xs tracking-widest flex items-center gap-2">
-          <span className="text-[rgba(122,146,49,0.7)] text-lg md:text-xl">
+          <span className="text-[#b5dc41] text-lg md:text-xl">
             &laquo;&laquo;
           </span>
           <div className="flex-1 flex items-center">
             <span>ONGOING MATCHES</span>
-            <div className="flex-1 h-0.5 bg-[rgba(122,146,49,0.7)] ml-3" />
+            <div className="flex-1 h-0.5 bg-[#b5dc41] ml-3" />
           </div>
         </div>
 
         <div className="mt-3 text-xs tracking-widest flex items-center gap-2">
-          <span className="text-[rgba(122,146,49,0.7)] text-lg md:text-xl">
+          <span className="text-[#b5dc41] text-lg md:text-xl">
             &laquo;&laquo;
           </span>
           <div className="flex-1 flex items-center">
             <span>SCORE</span>
-            <div className="flex-1 h-0.5 bg-[rgba(122,146,49,0.7)] ml-3" />
+            <div className="flex-1 h-0.5 bg-[#b5dc41] ml-3" />
           </div>
         </div>
       </div>

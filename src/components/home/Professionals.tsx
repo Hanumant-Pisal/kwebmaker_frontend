@@ -12,15 +12,15 @@ const Professionals = () => {
               <h2 className="text-3xl font-bold text-black">
                 Meet our professionals
               </h2>
-              <span className="inline-block h-2 w-2 rounded-full bg-[rgba(122,146,49,0.7)]" />
+              <span className="inline-block h-2 w-2 rounded-full bg-[#b5dc41]" />
             </div>
 
             <p className="mb-4 max-w-2xl text-sm text-gray-500">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              Lorem Ipsum has been the industry's standard dummy text <br />ever since the 1500s.
             </p>
           </div>
 
-          <button className="mt-0 rounded-full bg-[#b5dc41] px-6 py-2 font-medium text-black transition-colors hover:bg-[#7a9231] hover:text-white md:mt-2">
+          <button className="mt-0 rounded-full bg-[#b5dc41] px-6 py-2 font-medium text-white transition-colors hover:bg-[#7a9231] hover:text-white md:mt-2">
             view all
           </button>
         </div>
@@ -39,7 +39,7 @@ const Professionals = () => {
                 />
               </div>
               <h4 className="font-semibold">{name}</h4>
-              <p className="text-sm text-gray-500">{role}</p>
+              <p className="text-sm text-gray-500" dangerouslySetInnerHTML={{ __html: role.replace(/&/g, '&<br />') }} />
             </div>
           ))}
         </div>

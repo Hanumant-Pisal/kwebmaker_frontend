@@ -21,7 +21,7 @@ const About = () => {
       <div className="relative z-10 max-w-3xl mx-auto px-6 text-center mb-10">
         <p className="text-xl md:text-2xl text-gray-800 leading-snug">
           To be the first venue in the world to have{' '}
-          <span className="font-semibold text-[rgba(122,146,49,0.7)]">
+          <span className="font-semibold text-[#b5dc41]">   
             60 multi surface courts
           </span>
           <br />
@@ -52,7 +52,7 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-black">
               About Us
             </h2>
-            <span className="w-2 h-2 rounded-full bg-[rgba(122,146,49,0.7)]" />
+            <span className="w-2 h-2 rounded-full bg-[#b5dc41]" />
           </div>
 
           <p className="text-sm text-gray-700 mb-6 max-w-md">
@@ -70,7 +70,7 @@ const About = () => {
               { value: '10', label: 'clubs' },
             ].map((item) => (
               <div key={item.label}>
-                <h3 className="text-2xl font-bold text-[#7a9231]">
+                <h3 className="text-2xl font-bold text-[#b5dc41]">
                   {item.value}
                 </h3>
                 <p className="text-xs text-gray-700">{item.label}</p>
