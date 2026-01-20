@@ -66,10 +66,12 @@ const Programs = () => {
                                 sizes="(max-width: 768px) 100vw, 33vw"
                                 className="object-cover transition-opacity group-hover:opacity-90 rounded-xl"
                             />
-                            <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-6 text-white">
-                                <h3 className="text-2xl md:text-3xl font-bold mb-1">{item.title}</h3>
-                                <p className="text-lg md:text-xl">{item.subtitle}</p>
-                            </div>
+                           <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-black/60 to-transparent flex flex-col justify-end p-6 text-white">
+  <div className="text-center">
+    <h3 className="text-2xl md:text-3xl  mb-1">{item.title}</h3>
+    <p className="text-lg md:text-md">{item.subtitle}</p>
+  </div>
+</div>
                         </div>
                     ))}
                 </div>
@@ -82,9 +84,9 @@ const Programs = () => {
       <div
         key={i}
         className="flex w-1/5 items-center justify-center
-                   text-2xl md:text-3xl font-bold tracking-widest"
+                   text-2xl md:text-5xl font-bold tracking-widest"
       >
-        {/* word */}
+       
         <span
           className={
             word.type === "outline"
@@ -95,7 +97,7 @@ const Programs = () => {
           {word.text}
         </span>
 
-        {/* dot */}
+        
         {i !== words.length - 1 && (
           <span
             className="mx-6 md:mx-8 text-fill-green leading-none"
