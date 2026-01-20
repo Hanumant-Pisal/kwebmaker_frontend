@@ -4,3 +4,14 @@
 
 
 @import "tailwindcss";
+
+
+/* globals.css */
+.text-fill-green {
+  color: #b5dc41;
+}
+
+.text-outline-green {
+  color: transparent;
+  -webkit-text-stroke: 1.5px #b5dc41;
+}
