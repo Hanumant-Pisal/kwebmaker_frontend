@@ -7,44 +7,53 @@ const Footer = () => {
       
       <div className="flex h-[420px] w-full">
         
-        <div className="relative w-1/2">
-          <Image
-            src="/images/coaches.jpg"
-            alt="Coaches"
-            fill
-            className="object-cover"
-            placeholder="blur"
-            blurDataURL="/images/video-poster-black.jpg"
-          />
-          <div className="absolute inset-0 flex flex-col justify-center bg-black/40 px-16">
-            <div className="relative inline-block">
-              <h2 className="mb-4 inline-block text-4xl font-bold text-white">Our Coaches<span className="relative">
-                <span className="absolute -right-2 -top-2 h-2 w-2 rounded-full bg-white"></span>
-              </span></h2>
-            </div>
-            <p className="mb-6 max-w-md text-white/80">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-            </p>
-            <span className="flex items-center gap-2 font-medium text-white">
-              Read More <span>→</span>
-            </span>
-          </div>
-        </div>
-
-       
-        <div className="relative flex w-1/2 flex-col justify-center bg-[#9AC11C] px-16">
-          <div className="relative inline-block">
-            <h2 className="mb-4 inline-block text-4xl font-bold text-white">Events<span className="relative">
-              <span className="absolute -right-2 -top-2 h-2 w-2 rounded-full bg-white"></span>
-            </span></h2>
-          </div>
-          <p className="mb-6 max-w-md text-white/90">
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          </p>
-          <span className="flex items-center gap-2 font-medium text-white">
-            Read More <span>→</span>
+      <div className="flex h-auto flex-col md:h-[420px] md:flex-row w-full">
+  
+  <div className="relative w-full h-80 md:h-auto md:w-1/2">
+    <Image
+      src="/images/coaches.jpg"
+      alt="Coaches"
+      fill
+      className="object-cover"
+      placeholder="blur"
+      blurDataURL="/images/video-poster-black.jpg"
+    />
+    <div className="absolute inset-0 flex flex-col justify-center bg-black/40 p-6 md:px-16">
+      <div className="relative inline-block">
+        <h2 className="mb-2 md:mb-4 text-3xl md:text-4xl font-bold text-white">
+          Our Coaches
+          <span className="relative">
+            <span className="absolute -right-2 -top-2 h-2 w-2 rounded-full bg-white"></span>
           </span>
-        </div>
+        </h2>
+      </div>
+      <p className="mb-4 md:mb-6 text-sm md:text-base text-white/80 max-w-md">
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      </p>
+      <span className="flex items-center gap-2 text-sm md:text-base font-medium text-white">
+        Read More <span>→</span>
+      </span>
+    </div>
+  </div>
+
+ 
+  <div className="relative flex w-full flex-col justify-center bg-[#9AC11C] p-6 md:w-1/2 md:px-16">
+    <div className="relative inline-block">
+      <h2 className="mb-2 md:mb-4 text-3xl md:text-4xl font-bold text-white">
+        Events
+        <span className="relative">
+          <span className="absolute -right-2 -top-2 h-2 w-2 rounded-full bg-white"></span>
+        </span>
+      </h2>
+    </div>
+    <p className="mb-4 md:mb-6 text-sm md:text-base text-white/90 max-w-md">
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+    </p>
+    <span className="flex items-center gap-2 text-sm md:text-base font-medium text-white">
+      Read More <span>→</span>
+    </span>
+  </div>
+</div>
       </div>
 
      
